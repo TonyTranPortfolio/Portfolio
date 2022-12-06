@@ -32,10 +32,12 @@ I also used a library called [dirty_cat](https://dirty-cat.github.io/stable/) to
 
 ## Results
 ![Model Results](Images/MAE.png)
+
 The metric chosen to evaluate the models was Mean Absolute Error (MAE), which calculates the difference between the actual value and the predicted value from the model. I chose MAE over the Root Mean Squared Error (RMSE) for the metric since RMSE weighs large errors more highly.
 
 From the chart above, it can be seen that a histGradientBoosting Regressor model predicted our test set the best out of all my tested models. The model seems to have difficulties with predictions for dogs with shelter times that were outliers, more than 1.5 times the IQR.
 
 ## Conclusion
 ![Patches](Images/Patches.png)
+
 The model created using a histGradientBoosting Regressor model can predict the estimated time a dog spends in the Austin Animal Shelter to a degree of certainty with a mean absolute error of approximately 15 days. Using our model, we predicted that Patches, an injured spayed female pit bull of around 9-10 years old would have a shelter time of over 2 years. Even though the actual amount of time for Patches was over 5 years before she was adopted, it would alert the Austin Animal Center to her situation and allow then to improve her live outcome odds via social media promotions or through shelter exchange programs.
