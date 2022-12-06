@@ -21,6 +21,6 @@ The three datasets are as follows:
 
 I use a library called [darts](https://unit8co.github.io/darts/) to aid in timeseries forecasting.
 
-![forecast](Image/CasePrediction.png)
+![forecast](Image/CasePredictions.png)
 
 
